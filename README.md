@@ -1,5 +1,6 @@
 
 ### Lint and fix sql
+Based off [SQLFluff](https://www.sqlfluff.com/)
 
 ### Backend (dev)
 ```bash
