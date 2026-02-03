@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from sqlfluff.core import Linter, FluffConfig
 
-from utils import clean_sql_input
+from .utils import clean_sql_input
 
 app = FastAPI(title="SQLFluff Web Linter", version="0.1.0")
 app.add_middleware(
